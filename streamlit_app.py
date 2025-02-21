@@ -1,5 +1,7 @@
 import streamlit as st
 import numpy as np
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+
 
 st.title("Titanic Survival Prediction")
 scaler = StandardScaler()
