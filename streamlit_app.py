@@ -1,4 +1,6 @@
 import streamlit as st
+import numpy as np
+
 st.title("Titanic Survival Prediction")
 pclass = st.selectbox("Passenger Class", [1, 2, 3])
 sex = st.radio("Sex", ['Male', 'Female'])
