@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
+pip install scikit-learn
 
 
 st.title("Titanic Survival Prediction")
